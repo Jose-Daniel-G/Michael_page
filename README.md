@@ -22,6 +22,10 @@ php artisan migrate --seed  #llenar de registros de prueba la bd
 php artisan serve
 npm run dev
 ```
+# si es necesario borrar la bd y crearla de nuevo con datos
+```bash
+php artisan migrate:fresh --seed
+```
 - Nota: ajunto de igual forma la bd en el proyecto
 ### RUTAS API
 # Productos (ejemplo)
