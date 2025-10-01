@@ -8,7 +8,7 @@
 
 - http://127.0.0.1:8000/api/login
   las creadeciales son jose.grijalba04@gmail.com y admin@email.com
-- contrasena: 123123123 # solo es para pruebas
+- ⚠️ **Contraseña (solo pruebas):** `123123123`
 - anexo screenshoots de las pruebas realizadas en images/
   
 ## Comandos a ejecutar en la ubicacion del proyecto BAKEND 
@@ -18,7 +18,7 @@ npm install
 composer install
 cp .env.example .env
 php artisan key:generate 
-php artisan migrate 
+php artisan migrate --seed  #llenar de registros de prueba la bd
 php artisan serve
 npm run dev
 ```
@@ -43,7 +43,7 @@ Esta aplicación web moderna utiliza Laravel como API REST backend y Angular com
 ## Características Principales
 
 - Single Page Application (SPA) - Navegación sin recargas  
-- Autenticación JWT - Sistema seguro de login  
+- Jetstream / Autenticacion JWT - Sistema seguro de login   
 - Responsive Design - Adaptable a todos los dispositivos  
 - API RESTful - Comunicación eficiente backend-frontend  
 - UI/UX Moderna - Interfaz intuitiva y atractiva  
