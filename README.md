@@ -124,5 +124,3 @@ GitHub: [github.com/Jose-Daniel-G](https://github.com/Jose-Daniel-G)
 |--------------------------|---------------------------|
 |![image](images/create-product.png)|![image](images/edit-product.png)|
 |![image](images/list-products.png)|![image](images/login.png)|
-
-images/delete-product.png
