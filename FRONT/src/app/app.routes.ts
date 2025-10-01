@@ -1,9 +1,10 @@
 import { Routes } from '@angular/router';
 import { LayoutComponent } from './core/layout/layout.component';
 import { AuthGuard } from './core/guards/auth.guard';
+import { AuthRedirectGuard } from './core/guards/auth-redirect.guard';
 
 export const routes: Routes = [
-  { path: '', redirectTo: 'landing', pathMatch: 'full' }, // 🔹 Asegura que inicie en login
+  { path: '', redirectTo: '/login', pathMatch: 'full' }, // 🔹 Asegura que inicie en login
   {
     path: 'landing',
     loadComponent: () => import('./modules/home/home.component').then(c => c.HomeComponent)
@@ -11,7 +12,9 @@ export const routes: Routes = [
   {
     path: 'auth',
     loadComponent: () => import('./modules/auth-profile/auth-profile.component').then(c => c.AuthProfileComponent),
-    loadChildren: () => import('./modules/auth-profile/auth-profile.route').then(m => m.default)
+    loadChildren: () => import('./modules/auth-profile/auth-profile.route').then(m => m.default),
+    canActivate: [AuthRedirectGuard]  // 🚀 Redirige si ya está autenticado
+
   },
   {
     path: '',
@@ -46,5 +49,5 @@ export const routes: Routes = [
       }
     ]
   },
-  { path: '**', redirectTo: 'landing' } // 🔹 Redirige cualquier otra URL inválida a login
+  { path: '**', redirectTo: 'auth/login' } // 🔹 Redirige cualquier otra URL inválida a login
 ]
