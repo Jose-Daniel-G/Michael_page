@@ -120,7 +120,12 @@ Email: jose.grijalba04@gmail.com
 LinkedIn: [linkedin.com/in/jose-daniel-go](https://www.linkedin.com/in/jose-daniel-go)  
 GitHub: [github.com/Jose-Daniel-G](https://github.com/Jose-Daniel-G)
 
-|     TESTING IMAGES        |             API           |
+|     TESTING IMAGES       |             API           |
 |--------------------------|---------------------------|
-|![image](images/create-product.png)|![image](images/edit-product.png)|
-|![image](images/list-products.png)|![image](images/login.png)|
+|![create](images/create-product.png)|![edit](images/edit-product.png)|
+|![list](images/list-products.png)|![login](images/login.png)|
+|--------------------------|---------------------------|
+|     TESTING IMAGES       |      FRONTEND ANGULAR     |
+|--------------------------|---------------------------|
+|![create-front](images/create.png)|![edit-front](images/edit.png)|
+|![list-front](images/list.png)|[delete-front](images/delete-product.png)|
