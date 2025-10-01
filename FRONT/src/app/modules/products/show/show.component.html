@@ -1,0 +1,27 @@
+<!-- product-detail.component.html -->
+<div class="content-wrapper">
+  <section class="content">
+    <div class="container-fluid">
+      <div class="row">
+        <!-- Imagen -->
+        <div class="col-lg-6 mb-3">
+          <div class="card shadow-sm">
+            <img [src]="product?.image" class="card-img-top" alt="{{ product?.name }}">
+          </div>
+        </div>
+        <!-- Detalle -->
+        <div class="col-lg-6">
+          <div class="card shadow-sm p-4">
+            <h2>{{ product?.name }}</h2>
+            <p class="text-success h3">$ {{ product?.price }}</p>
+            <p class="text-muted text-decoration-line-through">$ {{ product?.prevPrice }}</p>
+            <p><strong>Descripción:</strong></p>
+            <p>{{ product?.description }}</p>
+            <button class="btn btn-success btn-lg w-100 mb-2">Comprar Ahora</button>
+            <button class="btn btn-outline-secondary btn-lg w-100" (click)="goBack()">← Volver</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>

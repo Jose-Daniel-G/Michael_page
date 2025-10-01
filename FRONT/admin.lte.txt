@@ -1,0 +1,29 @@
+  
+  import { HeaderComponent } from './layout/header/header.component';
+import { SidebarComponent } from './layout/sidebar/sidebar.component';
+import { ContentWrapperComponent } from './layout/content-wrapper/content-wrapper.component';
+import { FooterComponent } from './layout/footer/footer.component';
+import { ControlSidebarComponent } from './layout/control-sidebar/control-sidebar.component';
+import { SmallBoxComponent } from './components/small-box/small-box.component';
+  imports: [RouterOutlet, HeaderComponent, SidebarComponent, ContentWrapperComponent, FooterComponent,ControlSidebarComponent,SmallBoxComponent,],
+
+
+<a href="#" class="hover:bg-gray-700 p-2 rounded flex items-center gap-2">
+  <i class="fa-solid fa-box"></i> Productos
+</a>
+
+<a href="#" class="hover:bg-gray-700 p-2 rounded flex items-center gap-2">
+  <i class="fa-solid fa-cart-shopping"></i> Pedidos
+</a>
+
+<a href="#" class="hover:bg-gray-700 p-2 rounded flex items-center gap-2">
+  <i class="fa-solid fa-users"></i> Clientes
+</a>
+
+<a href="#" class="hover:bg-gray-700 p-2 rounded flex items-center gap-2">
+  <i class="fa-solid fa-chart-line"></i> Reportes
+</a>
+
+<a href="#" class="hover:bg-gray-700 p-2 rounded flex items-center gap-2">
+  <i class="fa-solid fa-gear"></i> Configuración
+</a>
