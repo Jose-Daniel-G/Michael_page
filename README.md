@@ -3,10 +3,12 @@
 
 - se realizo el crud en api de productos solicitado, tablas elaboradas en ingles
   se puedieron anadir mas caracteristicas, solo decidi seguir lo establecido.
-  el proyecto cuenta con spatie para roles y permisos, solo que no esta applicado 
-  solo hay un rol el cual es admin.
+  el proyecto cuenta con spatie para roles y permisos, solo que no esta applicado. 
+  el rol es admin.
 
-  las creadeciales son jose.grijalba04@gmail.com y admin@email.com ambos con contrasena 123123123 solo es para pruebas
+- http://127.0.0.1:8000/api/login
+  las creadeciales son jose.grijalba04@gmail.com y admin@email.com
+- contrasena: 123123123 # solo es para pruebas
 - anexo screenshoots de las pruebas realizadas en images/
   
 ## Comandos a ejecutar en la ubicacion del proyecto BAKEND 
@@ -118,7 +120,9 @@ Email: jose.grijalba04@gmail.com
 LinkedIn: [linkedin.com/in/jose-daniel-go](https://www.linkedin.com/in/jose-daniel-go)  
 GitHub: [github.com/Jose-Daniel-G](https://github.com/Jose-Daniel-G)
 
-|     TETING IMAGES        |             API           |
+|     TESTING IMAGES        |             API           |
 |--------------------------|---------------------------|
 |![image](images/create-product.png)|![image](images/edit-product.png)|
 |![image](images/list-products.png)|![image](images/login.png)|
+
+images/delete-product.png
