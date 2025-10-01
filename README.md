@@ -118,7 +118,8 @@ Email: jose.grijalba04@gmail.com
 LinkedIn: [linkedin.com/in/jose-daniel-go](https://www.linkedin.com/in/jose-daniel-go)  
 GitHub: [github.com/Jose-Daniel-G](https://github.com/Jose-Daniel-G)
 
-|     TETING IMAGES        |             API           |
+|     TESTING IMAGES        |             API           |
 |--------------------------|---------------------------|
 |![image](images/create-product.png)|![image](images/edit-product.png)|
 |![image](images/list-products.png)|![image](images/login.png)|
+[image](images/delete-product.png)
