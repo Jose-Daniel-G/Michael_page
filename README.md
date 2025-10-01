@@ -128,4 +128,4 @@ GitHub: [github.com/Jose-Daniel-G](https://github.com/Jose-Daniel-G)
 |     TESTING IMAGES       |      FRONTEND ANGULAR     |
 |--------------------------|---------------------------|
 |![create-front](images/create.png)|![edit-front](images/edit.png)|
-|![list-front](images/list.png)|[delete-front](images/delete-product.png)|
+|![list-front](images/list.png)|![delete-front](images/delete-product.png)|
