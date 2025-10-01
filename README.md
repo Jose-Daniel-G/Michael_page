@@ -4,7 +4,10 @@
 - se realizo el crud en api de productos solicitado, tablas elaboradas en ingles
   se puedieron anadir mas caracteristicas, solo decidi seguir lo establecido.
   el proyecto cuenta con spatie para roles y permisos, solo que no esta applicado 
-  solo hay un rol el cual es admin
+  solo hay un rol el cual es admin.
+
+  las creadeciales son jose.grijalba04@gmail.com y admin@email.com ambos con contrasena 123123123 solo es para pruebas
+- anexo screenshoots de las pruebas realizadas en images/
   
 ## Comandos a ejecutar en la ubicacion del proyecto BAKEND 
 
@@ -23,10 +26,10 @@ npm run dev
 - Nota para crear productos tiene que estas autenticado
 - se han usado middlewares para evitar acceso indevido como forma de seguriadad
   
-GET    http://127.0.0.1:8000/api/products
-POST   http://127.0.0.1:8000/api/products
-PUT    http://127.0.0.1:8000/api/products/{id}
-DELETE http://127.0.0.1:8000/api/products/{id}
+- GET    http://127.0.0.1:8000/api/products
+- POST   http://127.0.0.1:8000/api/products
+- PUT    http://127.0.0.1:8000/api/products/{id}
+- DELETE http://127.0.0.1:8000/api/products/{id}
 
 # Para realizar las pruebas unitarias ejecutar
 php artisan test --filter=ProductTest
@@ -117,5 +120,5 @@ GitHub: [github.com/Jose-Daniel-G](https://github.com/Jose-Daniel-G)
 
 |     TETING IMAGES        |             API           |
 |--------------------------|---------------------------|
-|![image](images/create-product.png)|![image](images/dit-product.png)|
-|![image](images/list-product.png)|![image](images/login-product.png)|
+|![image](images/create-product.png)|![image](images/edit-product.png)|
+|![image](images/list-products.png)|![image](images/login.png)|
